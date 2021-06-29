@@ -29,7 +29,7 @@ def metrics():
 @app.route("/")
 def hello():
     app.logger.info("Main request successfull")
-    return "Hello World!"
+    return "Hello World! from Python..."
 
 if __name__ == "__main__":
     
