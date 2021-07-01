@@ -2,7 +2,7 @@ namespace:
   name: prod
 
 image:
-  respository: nginx
+  repository: nginx
   tag: 1.17.0
   pullPolicy: IfNotPresent
 
